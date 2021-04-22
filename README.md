@@ -44,3 +44,17 @@ Fue planteado por el matemático **Thomas Bayes** al querer saber la probabilida
 
 Nos dice que la probabilidad de una hipotesis que la vamos a llamar **A** dada alguna evidencia que sera **B** es simplemente 
 la probabilidad de **A and B** sobre la probabilidad de **B**
+
+traducido esto a lo que tenemos es 
+
+![FORMULA](https://i.postimg.cc/Z5XzZskT/BAYES.png)
+
+    P(H) = prior
+    p(H|E)= posteriorph
+
+Para poder visualizar esto vamos a usar un **eikosograma**
+
+#### Eikosograma
+Un Eikosograma es una representación gráfica de una tabla de recuentos de dos factores (o probabilidades conjuntas) que hace que los tamaños relativos de los recuentos en cada tabla sean claramente visibles al hacer que el área de cada celda sea proporcional al recuento.
+
+![eikosogram](https://i.postimg.cc/RCtkQLn8/eikosogram.jpg)
