@@ -58,3 +58,18 @@ Para poder visualizar esto vamos a usar un **eikosograma**
 Un Eikosograma es una representación gráfica de una tabla de recuentos de dos factores (o probabilidades conjuntas) que hace que los tamaños relativos de los recuentos en cada tabla sean claramente visibles al hacer que el área de cada celda sea proporcional al recuento.
 
 ![eikosogram](https://i.postimg.cc/RCtkQLn8/eikosogram.jpg)
+
+#### Ejemplo con un ejercicio del teorema de bayes
+* En un acuario se tienen solo 2 especies de
+peces. El 40 % de los peces del acuario son de la
+especie azul y el 60% son de la especie roja. De
+la especie azul, el 30 % son machos; mientras
+que, de la especie roja, el 40% son hembras. Si
+se selecciona un pez al azar,
+a) y resulta que es hembra, ¿cuál es la
+probabilidad de que sea de la especie azul?
+
+![arbolgrafico](https://i.postimg.cc/BvVx6DSc/bayes-Arbol.jpg)
+![resoluciongrafico](https://i.postimg.cc/J7PRBqVL/Ejercico-bayes.jpg)
+
+![eikosogramaejercicio](https://i.postimg.cc/gcSP028c/grafico.jpg)
