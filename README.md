@@ -35,4 +35,11 @@ Otro ejemplo es cual es la probabilidad de que una persona use drogas, pero como
 
     P(drogas) = P(musico) * P(drogas | no musico) + P(~musico) + P(drogas | no musico)
 
+## TEOREMA DE BAYES
 
+Fue planteado por el matemático **Thomas Bayes** al querer saber la probabilidad de aventar un balon si saber en donde cayo como mejorar su probabilidad de que caiga en la mesa. Es probablemente uno de los teoremas mas importantes dentro de las matemáticas
+
+![Formula](https://latex.codecogs.com/gif.latex?P(A|B)=\frac{P(A|B)P(A)}{P(B)})
+
+Nos dice que la probabilidad de una hipotesis que la vamos a llamar **A** dada alguna evidencia que sera **B** es simplemente 
+la probabilidad de **A and B** sobre la probabilidad de **B**
