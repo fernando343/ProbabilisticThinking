@@ -1,6 +1,5 @@
 # INTRODUCCION AL PENSAMIENTO PROBABILISTICO
 
-
 * La programación probabilística utiliza probabilídades y modelos probabilísticos para ejecutar cómputos.
 * Se utiliza en una gran cantidad de campos: 
     * Inventigación científica
@@ -35,3 +34,5 @@ Un ejemplo de esto puede ser la probabilidad que una persona tenga cáncer, lueg
 Otro ejemplo es cual es la probabilidad de que una persona use drogas, pero como dato adicional esta persona es músico.
 
     P(drogas) = P(musico) * P(drogas | no musico) + P(~musico) + P(drogas | no musico)
+
+
