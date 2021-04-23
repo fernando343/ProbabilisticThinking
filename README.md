@@ -1,5 +1,14 @@
 # INTRODUCCION AL PENSAMIENTO PROBABILISTICO
 
+## Tabla de contenido
+ * [Programación Probabílistica]()
+    * [Programacion Probabílistica](##PROGRAMACION-PROBABILISTICA)
+        * [Donde se utiliza](#Donde-se-utiliza)
+    * [PROBABILIDAD CONDICIONAL](#PROBABILIDAD-CONDICIONAL)
+    * [TEOREMA DE BAYES](#TEOREMA-DE-BAYES)
+
+
+## PROGRAMACION PROBABILISTICA
 * La programación probabilística utiliza probabilídades y modelos probabilísticos para ejecutar cómputos.
 * Se utiliza en una gran cantidad de campos: 
     * Inventigación científica
@@ -9,7 +18,7 @@
 
 Cuando tenemos dos probabilidades unidas por la letra **Y** o **AND** en ingles nos indica que la probabilidad que las dos condiciones se cumplan se reduce
 
-## Donde se utiliza
+### Donde se utiliza
 **UBER**: Lo utiliza por que necesita constantemente unir a sus conductores con sus clientes y necesita poder determinar el tiempo estimado que se va a demorar el conductor en llegar del punto A al punto B 
 
 **FILTROS DE SPAM**: Son una de las primeras aplicaciones reales de gran escala de machine lerning se genero en los años 80 con programacion probabilistica y de la manera que lo implementaron fue que los usuarios hiban diciendo que era span y que no era espan 
