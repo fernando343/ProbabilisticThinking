@@ -14,6 +14,10 @@
     * [Falacia del francotirador de Texas](#Falacia-del-francotirador-de-Texas)
     * [Porcentajes confusos](#Porcentajes-confusos)
     * [Falacia de regresión](#Falacia-de-regresión)
+* [Introducción a Machine Learning](#Introducción-a-Machine-Learning)
+    * [Historia](#Historia)
+    * [Feature vectors](#Feature-vectors)
+    * [Métricas de distancia](#Métricas-de-distancia)
 
 
 ## Programación probabilistica
