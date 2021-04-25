@@ -206,3 +206,77 @@ En realidad si hubo de un del 0.7% pero no del 48%
 * Un atleta que le fue muy mal durante una semana y cambia de alimentación y entonces le comienza a ir como antes, el puede atribuir esto a su alimentación y no una regresión a la media
 * Cuando tienes un estudiante que le esta yendo una racha mala y lo castigas y luego vuelve a ser el estudiante que era antes puedes caer en el error que tus medidas correctivas es lo que le esta haciendo mejorar 
 
+## Introducción a Machine Learning
+### Introducción a Machine Learning
+---
+**¿Que es?**
+> Es el campo de estudio que le da a las computadoras la habilidad de aprender sin ser explícitamente programadas. *Arthur Samuel, 1959*
+
+Son algoritmos matemáticos muy inteligentes en el sentido de cleverness de que son astutos que nos permiten llegar a las conclusiones de manera automática como si un humano se hubiera puesto a pensar y reflexionar 
+
+### Historia
+---
+
+Todo empezó con **Thomas Bayes** que nos otorgo una forma de pensar matemáticamente en como incorporar la evidencia, como incorporar los datos que tenemos del mundo real para poder llegar a conclusiones cada vez mas correctas de manera recursiva es decir mientras mas datos obtengamos del mundo real mas correctas van a ser nuestras aproximaciones.
+
+**Alan Turing** no solo descubrió que todos los algoritmos son el mismo algoritmo y nos dio la base para crear las computadoras modernas y si no también nos dio las bases para que estas computadoras aprendan 
+
+**Marvil Minsky** creo la primera red neuronal la cual por la epoca solo contaba de una capa 
+
+En 1952 **Arthur Samuel** genera el primer programa que sabe jugar damas chinas y la forma en que lo general es calculando los siguientes movimientos. Este programa nos permitió entender que aprender desde una perspectiva humana significaba 2 cosas:
+* **Memorizar**: Los humanos memorizamos los datos 
+* **Generealizar** 
+
+En 1960 **Donald Michie** genera la primera la primera red adversarial en donde se permite que las computadoras puedan jugar constantemente para poder entender como automatizar las reglas de un juego
+
+En 1967 se inventa el algoritmo de **K-nearest neighbor** que es la primera aproximación para detectar patrones a través de datos que ya preexisten y su primera aplicación fue para calcular rutas 
+
+En 1969 **Marvin Minsky** escribe el libro de **Perceptrons** y este libro fue un hito dentro del Machine Lerning por que detuvo en seco toda la investigación relacionada con redes neuronales por que Marvin demostró matematicamente que las redes que el mismo había diseñado no permitían seguir adelante dentro del desarrollo del IA. Pero el error del cual el no se había dado cuenta es que dentro de las redes podíamos tener redes de mas de una capa pero el estaba hablando de solo de una capa la cual tiene varias limitantes 
+
+En 1979 se genero el **Stanford Car** fue una forma en la cual los estudiantes de Stanford generaron algoritmos para lograr mover un carro que ellos habían hecho para que pudiera evitar obstáculos 
+
+1997 Fue el gran año que marco el paso a la inteligencia artificial moderna, fue el año en que la computadora **Deep Blue** derroto a Gary Kasparov el gran campeón durante muchos años de ajedrez 
+
+* Machine lerning se utiliza cuando : 
+    * Programar un algoritmo es imposible
+    * El problema es muy complejo o no se conocen algoritmos para resolverlos
+    * Ayuda los humanos a entender patrones (*data ming*)
+* Aprendizaje supervisado vs no  supervisado bs semi supervisado
+* Batch vs online learning 
+
+### Feature vectors
+---
+
+* Se utiliza para representar características simbólicas o numéricas llamadas *features*.
+* Permite analizar un objeto desde una perspectiva matemática.
+* Los algoritmos de machine learning típicamente requieren representaciones numéricas para poder ejecutar el computo
+* Uno de los *feature* vectores mas conocidos es la presentación del color a través de RGB.
+    * color = [R, G, B]
+
+**Ejemplos**
+* Procesamiento de imágenes:
+    * Gradientes
+    * Bordes
+    * Áreas
+    * Colores
+* Reconocimiento de voz:
+    * Distancia de sonidos
+    * Nivel de ruido
+    * Razón ruido
+    * Señal
+* Spam:
+    * Dirección IP
+    * Estructura del texto,
+    * Frecuencia de palabras
+    * Encabezados 
+
+### Métricas de distancia
+---
+
+* Muchos de los algoritmos de machine learning pueden clasificarse como algoritmos de optimización.
+* lo que desean optimizar es una función que en muchas ocasiones se refiere a la distancia entre features  
+x = (a, b), y = (c, d)
+
+* Distancia euclidiana
+![formula](https://latex.codecogs.com/gif.latex?\bg_white&space;\sqrt{(a&space;-&space;c)^{2}&space;&plus;&space;(b&space;-&space;d)^{2}})
+
