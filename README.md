@@ -129,4 +129,61 @@ Viendo la imagen del lado izquierdo podríamos llegar a la conclusión que los Y
 * Dos variables están positivamente correlacionadas cuando se mueven en la misma dirección y negativamente correlacionadas cuando se mueven en direcciónes opuestas
 * Correlación no implica casualidad.
 * Pueden existir variables escondidas que generen la correlación 
-* Después de esto, eso; entonces a consecuencia de esto, eso.
+* *Después de esto, eso; entonces a consecuencia de esto, eso.*
+
+### Prejuicio en el muestreo
+---
+
+* Para que un muestro pueda servir como base para la inferencia estadística tiene que ser aleatorio y representativo.
+* El prejuicio en el muestreo elimina la representativas de las muestras
+* A veces conseguir muestras es difícil. por lo que se utiliza a la probación de mas fácil acceso
+
+**Ejemplo**
+
+Uno de los errores mas comunes es pensar que todos nuestros ante pasados sean hombres de cavernas y es que es muy difícil por cuestión de evidencias ya que se encuentran las muestras dentro de cavernas pero esto no quiere decir que haya sido asi 
+
+Lo importante es recordar que para poder generar una inferencia estadística válida necesitas aleatoriedad y también necesitamos una muestra representativa 
+
+### Falacia del francotirador de Texas
+---
+* Esta falacia se da cuando no se toma la aleatoriedad en consideración 
+* También sucede cuando uno se enfoca en la similitudes e ignora las diferencias 
+* Cuando fallamos al tener una hipótesis antes de recolectar datos estamos en alto riesgo de caer en esta falacia(***muy común en Data Science***).
+
+Una forma muy común de caer en este error es comenzar a recolectar datos sin una hipótesis 
+
+### Porcentajes confusos 
+---
+
+* Cuando no sabemos la cuenta total del cual se obtiene un porcentaje tenemos el riesgo de concluir falsos resultados.
+* Siempre es importante ver el contexto
+* Los porcentajes, en vació, no significan mucho
+
+**Ejemplo**
+
+* La escuela A incremento su rendimiento en 25%
+* La escuela B incremento su rendimiento en 10%
+* La escuela C incremento su rendimiento en un 5%
+¿Que escuela tuvo un mejor desempeño global solo viendo estos porcentajes* 
+Sin contexto esto no sirve de nada 
+
+|   |Rendimiento 2018|Rendimiento 2019|Incremento|Incremento Porcentajes   |
+|:-:|:-:|:-:|:-:|:-:|
+|Escuela A| 20 | 25 | 5 | 25% |
+|Escuela B| 50 | 55 | 5 | 10% |
+|Escuela C| 95 | 100 | 5 | 5% |
+
+Cuando tenemos los datos podemos observar que la escuela que mejor desempeño tiene es la escuela C
+
+**Ejemplo**
+* En 1970, 12.5 millones de jóvenes vivían con sus padres
+* En 2015 esta cifra se incrementó a 18.6 millones
+¿esto representa un 48%?
+
+||Jóvenes viviendo con sus padres|Población del país| Porcentaje de jóvenes viviendo con sus padres|
+|:-:|:-:|:-:|:-:|  
+|1970|12.5|234.38|5.33%|
+|2015|18.6|309.98|6.01%|
+|Diferencia|¿48?||NO 48%|
+
+En realidad si hubo de un del 0.7% pero no del 48%
