@@ -1,11 +1,19 @@
 # INTRODUCCIÓN AL PENSAMIENTO PROBABILISTICO
 
 ## Tabla de contenido
- * [Programación Probabílistica]()
+* [Programación Probabílistica]()
     * [Programación Probabílistica](##programacion-probabilistica)
         * [Donde se utiliza](#Donde-se-utiliza)
     * [Probabilidad condicional](#probabilidad-condicional)
     * [Teorema de bayes](#Teorema-de-bayes)
+* [Mentiras estadísticas]()
+    * [Garbage in, Garbage out (GIGO)](##Garbage-in-Garbage-out-(GIGO)-o-Principio-gaigo)
+    * [Imágenes engañosas](#Imágenes-engañosas)
+    * [Cum Hoc Ergo Propter Hoc](#Cum-Hoc-Ergo-Propter-Hoc)
+    * [Prejuicio en el muestreo](#Prejuicio-en-el-muestreo)
+    * [Falacia del francotirador de Texas](#Falacia-del-francotirador-de-Texas)
+    * [Porcentajes confusos](#Porcentajes-confusos)
+    * [Falacia de regresión](#Falacia-de-regresión)
 
 
 ## Programación probabilistica
@@ -187,3 +195,14 @@ Cuando tenemos los datos podemos observar que la escuela que mejor desempeño ti
 |Diferencia|¿48?||NO 48%|
 
 En realidad si hubo de un del 0.7% pero no del 48%
+
+### Falacia de regresión 
+---
+
+* Muchos eventos fluctuá naturalmente, por ejemplo, la temperatura promedio de una ciudad, el rendimiento de un atleta, los rendimientos de un portafolio de inversión etc.
+* Cuando algo fluctúa y se aplican medidas correctivas se puede creer que existe un lugar de una regresión a la media.
+
+**Ejemplos**
+* Un atleta que le fue muy mal durante una semana y cambia de alimentación y entonces le comienza a ir como antes, el puede atribuir esto a su alimentación y no una regresión a la media
+* Cuando tienes un estudiante que le esta yendo una racha mala y lo castigas y luego vuelve a ser el estudiante que era antes puedes caer en el error que tus medidas correctivas es lo que le esta haciendo mejorar 
+
