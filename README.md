@@ -277,6 +277,14 @@ En 1979 se genero el **Stanford Car** fue una forma en la cual los estudiantes d
 * lo que desean optimizar es una función que en muchas ocasiones se refiere a la distancia entre features  
 x = (a, b), y = (c, d)
 
-* Distancia euclidiana
-![formula](https://latex.codecogs.com/gif.latex?\bg_white&space;\sqrt{(a&space;-&space;c)^{2}&space;&plus;&space;(b&space;-&space;d)^{2}})
+* **Distancia euclidiana**:
+Una de las distancias más conocidas y utilizadas es la distancia euclídea. Ya que es la que se utiliza en el día a día para medir la separación entre dos puntos. La distancia euclídea en un espacio de n dimensiones se define mediante la siguiente ecuación
+
+    * ![formula](https://latex.codecogs.com/gif.latex?\bg_white&space;d(a,&space;b)&space;=&space;\sqrt{\sum_{i&space;=&space;1}^{n}(\frac{a_{i}}{\sigma&space;_{i}}-\frac{b_{i}}{\sigma_{i}&space;})^{2}})
+
+* **Distancia de Manhattan**:  Otra distancia de interés en algunos problemas es la Manhattan o geometría del taxista. El nombre hace referencia al diseño de cuadriculado de las calles de la isla de Manhattan, lo que obliga a moverse en los ejes que definen las calles. Así la distancia más corta entre dos puntos es la suma de los tramos de las calles. Esto es lo que se muestra en la siguiente figura donde la línea negra representa la distancia euclídea y el resto son la distancia Manhattan se define mediante la siguiente ecuación
+    * ![formula](https://latex.codecogs.com/gif.latex?\bg_white&space;d(a,&space;b)&space;=&space;\sqrt{\sum_{i&space;=&space;1}^{n}|a_{i}&space;-&space;b_{i}|})
+
+* **Distancia de Minkowsky**: La distancia de Minkowsky es una generalización de las vistas anteriormente. Esto se realiza mediante un parámetro pp con el que se puede reproducir los valores de las anteriores. Matemáticamente se define como
+    * ![formula](https://latex.codecogs.com/gif.latex?\bg_white&space;d(a,&space;b)&space;=&space;\sqrt{\sum_{i&space;=&space;1}^{n}&space;|a_{i}&space;-&space;b_{i}|^{p}})
 
