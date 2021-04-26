@@ -235,13 +235,13 @@ En 1960 **Donald Michie** genera la primera la primera red adversarial en donde 
 
 En 1967 se inventa el algoritmo de **K-nearest neighbor** que es la primera aproximación para detectar patrones a través de datos que ya preexisten y su primera aplicación fue para calcular rutas 
 
-En 1969 **Marvin Minsky** escribe el libro de **Perceptrons** y este libro fue un hito dentro del Machine Lerning por que detuvo en seco toda la investigación relacionada con redes neuronales por que Marvin demostró matematicamente que las redes que el mismo había diseñado no permitían seguir adelante dentro del desarrollo del IA. Pero el error del cual el no se había dado cuenta es que dentro de las redes podíamos tener redes de mas de una capa pero el estaba hablando de solo de una capa la cual tiene varias limitantes 
+En 1969 **Marvin Minsky** escribe el libro de **Perceptrons** y este libro fue un hito dentro del Machine Lerning por que detuvo en seco toda la investigación relacionada con redes neuronales por que Marvin demostró matemáticamente que las redes que el mismo había diseñado no permitían seguir adelante dentro del desarrollo del IA. Pero el error del cual el no se había dado cuenta es que dentro de las redes podíamos tener redes de mas de una capa pero el estaba hablando de solo de una capa la cual tiene varias limitantes 
 
 En 1979 se genero el **Stanford Car** fue una forma en la cual los estudiantes de Stanford generaron algoritmos para lograr mover un carro que ellos habían hecho para que pudiera evitar obstáculos 
 
 1997 Fue el gran año que marco el paso a la inteligencia artificial moderna, fue el año en que la computadora **Deep Blue** derroto a Gary Kasparov el gran campeón durante muchos años de ajedrez 
 
-* Machine lerning se utiliza cuando : 
+* Machine learning se utiliza cuando : 
     * Programar un algoritmo es imposible
     * El problema es muy complejo o no se conocen algoritmos para resolverlos
     * Ayuda los humanos a entender patrones (*data ming*)
@@ -292,3 +292,30 @@ Una de las distancias más conocidas y utilizadas es la distancia euclídea. Ya 
 * **Distancia de Minkowsky**: La distancia de Minkowsky es una generalización de las vistas anteriormente. Esto se realiza mediante un parámetro pp con el que se puede reproducir los valores de las anteriores. Matemáticamente se define como
     * ![formula](https://latex.codecogs.com/gif.latex?\bg_white&space;d(a,&space;b)&space;=&space;\sqrt{\sum_{i&space;=&space;1}^{n}&space;|a_{i}&space;-&space;b_{i}|^{p}})
 
+
+## Agrupamiento 
+### Introducción al agrupamiento 
+Existen muchas formas de clasificar los algoritmos de machine learning supervisados, no supervisados, en batch, en online pero una de las formas mas facil de agruparlo es en algoritmos de agrupamiento o ***Clustering***  y algoritmos de clasificación o ***classification algorithms***
+
+### Clustering
+
+* Es un proceso mediante el cual se agrupan objetos similares en clusters que los identifica.
+* Se clasifica como aprendizaje no supervisado ya que no requiere la utilización de etiquetas.
+* Permite entender la estructura de los datos y la similitud entre los mismos.
+* Es utilizado en motores de recomendación, análisis de redes sociales, análisis de riesgo crediticio, clasificación de genes, riesgos médicos, etc
+
+**Algoritmo de agrupamiento jerárquico**
+* Es un algoritmo que agrupa objetos similares en grupos llamados clusters.
+* El algoritmo comienza tratando a cada objeto como un cluster individual y luego realiza los siguientes pasos de manera recursiva:
+    * Identifica los dos clusters con menos distancia *los mas similares*.
+    * Agrupa los dos clusters en uno nuevo.
+
+* El output final es un dendrograma que muestra la relación entre objetos y grupos.
+*Es importante determinar qué medida de distancia vamos a utilizar y los puntos a utilizar en cada cluster *(linkage criteria)*
+
+**Algoritmo de Agrupamiento K-means**
+* Es un algoritmo que agrupa utilizando centroides.
+* El algoritmo funciona signado puntos al azar(*K define el número inicial de clusters*) y después:
+    * En cada iteración el punto se ajusta a su nueva centroide y cada punto se re calcula con la distancia con respecto de los centroides. 
+    * Los puntos se reasignan al nuevo centro
+    * El algoritmo se repite de manera iterativa hasta que ya no existen mejoras
