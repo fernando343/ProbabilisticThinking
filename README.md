@@ -18,12 +18,17 @@
     * [Historia](#Historia)
     * [Feature vectors](#Feature-vectors)
     * [Métricas de distancia](#Métricas-de-distancia)
-
 * [Agrupamiento]()
     * [Introducción al agrupamiento](#Introducción-al-agrupamiento)
     * [Clustering](#Clustering)
         * [Algoritmo de agrupamiento jerárquico](#Algoritmo-de-agrupamiento-jerárquico)
         * [Algoritmo de Agrupamiento K-means](#Algoritmo-de-Agrupamiento-K-means)
+* [Clasificación]()
+    * [Introducción a la clasificación](#Introducción-a-la-clasificación)
+        * [Algoritmo K-nearest neighbors](#Algoritmo-K-nearest-neighbors)
+
+
+
 
 
 ## Programación probabilistica
@@ -325,3 +330,20 @@ Existen muchas formas de clasificar los algoritmos de machine learning supervisa
     * En cada iteración el punto se ajusta a su nueva centroide y cada punto se re calcula con la distancia con respecto de los centroides. 
     * Los puntos se reasignan al nuevo centro
     * El algoritmo se repite de manera iterativa hasta que ya no existen mejoras
+
+## Clasificación 
+### Introducción a la clasificación 
+* Es el proceso mediante el cual se predice la clase de cierto dato.
+* Es un tipo de aprendizaje supervisado ya que para que funcione, se necesitan etiquetas con los datos(*labels*)
+* Se utiliza en muchos dominios, incluyendo la medicina, aprobación crediticia, reconocimiento de imágenes, vehículos autónomos, entre otros.
+* Sigue dos pasos:
+    * Aprendizaje (*creación del modelo*)
+    * Clasificación
+
+#### Algoritmo K-nearest neighbors 
+Es uno de los algoritmos mas importante dentro del machine learning
+* Parte del supuesto de que ya tenemos un conjunto de datos clasificados.
+* Trata de encontrar los "vecinos más cercanos"
+* k se refiere a la cantidad de vecinos que se utilizaran para clasificar un ejemplo que aún no ha sido clasificado.
+* Es sencillo de implementar y tiene aplicaciones en medicina, finanzas, agricultura, etc.
+* Es computacionalmente muy costoso y no sirve con datos de alta dimensionalidad. 
