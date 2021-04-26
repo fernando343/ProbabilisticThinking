@@ -19,6 +19,12 @@
     * [Feature vectors](#Feature-vectors)
     * [Métricas de distancia](#Métricas-de-distancia)
 
+* [Agrupamiento]()
+    * [Introducción al agrupamiento](#Introducción-al-agrupamiento)
+    * [Clustering](#Clustering)
+        * [Algoritmo de agrupamiento jerárquico](#Algoritmo-de-agrupamiento-jerárquico)
+        * [Algoritmo de Agrupamiento K-means](#Algoritmo-de-Agrupamiento-K-means)
+
 
 ## Programación probabilistica
 
@@ -304,7 +310,7 @@ Existen muchas formas de clasificar los algoritmos de machine learning supervisa
 * Permite entender la estructura de los datos y la similitud entre los mismos.
 * Es utilizado en motores de recomendación, análisis de redes sociales, análisis de riesgo crediticio, clasificación de genes, riesgos médicos, etc
 
-**Algoritmo de agrupamiento jerárquico**
+#### **Algoritmo de agrupamiento jerárquico**
 * Es un algoritmo que agrupa objetos similares en grupos llamados clusters.
 * El algoritmo comienza tratando a cada objeto como un cluster individual y luego realiza los siguientes pasos de manera recursiva:
     * Identifica los dos clusters con menos distancia *los mas similares*.
@@ -313,7 +319,7 @@ Existen muchas formas de clasificar los algoritmos de machine learning supervisa
 * El output final es un dendrograma que muestra la relación entre objetos y grupos.
 *Es importante determinar qué medida de distancia vamos a utilizar y los puntos a utilizar en cada cluster *(linkage criteria)*
 
-**Algoritmo de Agrupamiento K-means**
+#### **Algoritmo de Agrupamiento K-means**
 * Es un algoritmo que agrupa utilizando centroides.
 * El algoritmo funciona signado puntos al azar(*K define el número inicial de clusters*) y después:
     * En cada iteración el punto se ajusta a su nueva centroide y cada punto se re calcula con la distancia con respecto de los centroides. 
